@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ItemController : MonoBehaviour
 {
@@ -9,7 +6,6 @@ public class ItemController : MonoBehaviour
     [SerializeField] private float distance;
     [SerializeField] private Rigidbody rigidbody;
     [SerializeField] private AudioSource slideSource;
-    //[SerializeField] private AudioClip 
     [SerializeField] private Arm arm;
     [SerializeField] private CameraController cameraController;
     [SerializeField] private GameObject canvas;

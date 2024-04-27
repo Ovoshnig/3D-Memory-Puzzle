@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Arm : MonoBehaviour
@@ -14,7 +12,7 @@ public class Arm : MonoBehaviour
 
     private void Update()
     {
-        if (cameraController.LastHit != null && cameraController.LastHit.tag == "Item" && Input.GetKeyDown(KeyCode.Mouse0) && !isItemSelected)
+        if (cameraController.LastHit != null && cameraController.LastHit.CompareTag("Item") && Input.GetKeyDown(KeyCode.Mouse0) && !isItemSelected)
         {
             transform.parent.gameObject.GetComponent<PlayerController>().isInputBlocked = true;
             isItemSelected = true;

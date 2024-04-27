@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -11,7 +9,7 @@ public class CameraController : MonoBehaviour
     private float mouseY;
     private float xRotation = 0f;
 
-    [Header("Чувствительность мыши")]
+    [Header("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ")]
     public float sensetivityMouse;
     public Transform Player;
 

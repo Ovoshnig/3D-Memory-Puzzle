@@ -1,16 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Скорость перемещения игрока")]
+    [Header("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")]
     public float speed = 7f;
-    [Header("Скорость перемещения игрока при беге")]
+    [Header("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ")]
     public float runSpeed = 15f;
-    [Header("Сила прыжка")]
+    [Header("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")]
     public float jumpForce = 200f;
-    [Header("Мы на земле?")]
+    [Header("пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ?")]
     public bool ground;
     public Rigidbody rigidbody;
     [SerializeField] public bool isInputBlocked = false;
